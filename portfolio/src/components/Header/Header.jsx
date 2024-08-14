@@ -8,21 +8,21 @@ export default function Header(){
             <nav className="h-auto p-1.5 text-center text-gray-300 bg-gray-800 flex flex-wrap justify-between items-center">
                 <div className="m-2.5 text-2xl">
                 <Link to="/" className="hover:underline">
-                                        Aaditya Bir Singh
+                                        <span className="text-yellow-500">A</span>aditya <span className="text-yellow-500">B</span>ir <span className="text-yellow-500">S</span>ingh
                     </Link>
                 </div>
                 <div className="m-2.5 " >
                    <ul className="flex flex-wrap justify-between items-center text-gray-300 text-center space-x-8 text-lg">
-                   <Link to="/" className="hover:underline">
+                   <Link to="/" className="hover:underline active:text-yellow-500">
                                         Home
                     </Link>
-                   <Link to="/" className="hover:underline">
+                   <Link to="/" className="hover:underline active:text-yellow-500">
                                         About
                     </Link>
-                   <Link to="/" className="hover:underline">
+                   <Link to="/" className="hover:underline active:text-yellow-500">
                                         Resume
                     </Link>
-                   <Link to="/" className="hover:underline">
+                   <Link to="/" className="hover:underline active:text-yellow-500">
                                         Contact
                     </Link>
                     
