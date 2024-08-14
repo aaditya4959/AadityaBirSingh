@@ -7,7 +7,7 @@ import LinkedInButton from  "./Button";
 
 export default function Home(){
     return (
-        <div className="flex flex-wrap flex-row justify-around items-center bg-gray-600 p-10">
+        <div className="flex flex-wrap flex-row justify-around items-center bg-gray-600 px-4 py-32">
             <div className="flex flex-col ">
                 {/* <div className="text-3xl font-bold text-center text-yellow-500 my-10">--Hello</div> */}
                 <div className="text-left text-white text-4xl flex flex-col space-y-4">I'm <span className="text-yellow-500">Aaditya Bir Singh</span><br/>

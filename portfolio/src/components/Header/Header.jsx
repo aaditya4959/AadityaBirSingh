@@ -5,7 +5,7 @@ import {Link, NavLink} from "react-router-dom"
 export default function Header(){
     return (
         <>
-            <nav className="h-auto p-1.5 text-center text-gray-300 bg-gray-800 flex flex-wrap justify-between items-center">
+            <nav className="h-auto p-1.5 text-center text-gray-300 bg-gray-800 flex flex-wrap justify-between items-center fixed top-0 left-0 w-full z-40">
                 <div className="m-2.5 text-2xl">
                 <Link to="/" className="hover:underline">
                                         <span className="text-yellow-500">A</span>aditya <span className="text-yellow-500">B</span>ir <span className="text-yellow-500">S</span>ingh
